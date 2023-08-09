@@ -1,25 +1,23 @@
-import React from "react";
-import { Navbar, Nav, Button } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
 import { BsDownload } from "react-icons/bs";
 
-const TopNav = () => {
+function TopNav() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" className="py-3">
-      <Navbar.Brand className="font-weight-bold">
-        Search across <span className="text-primary">'3.3 crore +'</span>{" "}
-        Products & Services
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="navbar-nav" />
-      <Navbar.Collapse id="navbar-nav" className="justify-content-end">
-        <Nav>
-          <Button variant="outline-light" className="mr-2">
-            <BsDownload className="mr-1" />
-            <span>Download App</span>
-          </Button>
-        </Nav>
-      </Navbar.Collapse>
+    <Navbar className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="#home">
+          Search across '3.3 crore +' Products & Services
+        </Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+          <button>
+            Download App <BsDownload />{" "}
+          </button>
+        </Navbar.Collapse>
+      </Container>
     </Navbar>
   );
-};
+}
 
 export default TopNav;
