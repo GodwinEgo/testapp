@@ -10,16 +10,16 @@ const ImageGrid = () => {
   return (
     <div className="hero-area">
       <div
-        className="image-grid d-flex justify-content-between flex-wrap"
+        className="image-grid d-flex flex-wrap gap-3 justify-content-center"
         style={{ marginTop: "20px" }}
       >
         <div
-          className="image-item item1"
+          className="image-item"
           style={{
-            flex: "0 0 calc(40% - 15px)",
-            marginRight: "10px",
+            flex: "0 0 100%",
             borderRadius: "15px",
             position: "relative",
+            marginBottom: "20px",
           }}
         >
           <img
@@ -32,18 +32,18 @@ const ImageGrid = () => {
               borderRadius: "15px",
             }}
           />
-          <div className="overlay .overlay-first">
-            <h1>Packers & Movers </h1>
-            <button>Get The Best Deal</button>
+          <div className="overlay overlay-first">
+            <h1>Packers & Movers</h1>
+            <button className="btn btn-primary">Get The Best Deal</button>
           </div>
         </div>
         <div
-          className="image-item item2"
+          className="image-item"
           style={{
-            flex: "0 0 calc(15% - 15px)",
-            marginRight: "10px",
+            flex: "0 0 calc(50% - 10px)",
             borderRadius: "15px",
             position: "relative",
+            marginBottom: "20px",
           }}
         >
           <img
@@ -58,7 +58,7 @@ const ImageGrid = () => {
           />
           <div className="overlay">
             <div className="overlay-text">
-              <h2>B2B </h2>
+              <h2>B2B</h2>
               <br />
               <p>Quick Quotes</p>
             </div>
@@ -68,12 +68,12 @@ const ImageGrid = () => {
           </div>
         </div>
         <div
-          className="image-item item3"
+          className="image-item"
           style={{
-            flex: "0 0 calc(15% - 15px)",
-            marginRight: "10px",
+            flex: "0 0 calc(50% - 10px)",
             borderRadius: "15px",
             position: "relative",
+            marginBottom: "20px",
           }}
         >
           <img
@@ -87,9 +87,8 @@ const ImageGrid = () => {
             }}
           />
           <div className="overlay">
-            {" "}
             <div className="overlay-text">
-              <h2>Repair & Services </h2>
+              <h2>REPAIR & SERVICES</h2>
               <br />
               <p>Get nearest vendor</p>
             </div>
@@ -99,12 +98,12 @@ const ImageGrid = () => {
           </div>
         </div>
         <div
-          className="image-item item4"
+          className="image-item"
           style={{
-            flex: "0 0 calc(15% - 15px)",
-            marginRight: "10px",
+            flex: "0 0 calc(50% - 10px)",
             borderRadius: "15px",
             position: "relative",
+            marginBottom: "20px",
           }}
         >
           <img
@@ -118,11 +117,10 @@ const ImageGrid = () => {
             }}
           />
           <div className="overlay">
-            {" "}
             <div className="overlay-text">
-              <h2>B2B </h2>
+              <h2>REAL ESTATE</h2>
               <br />
-              <p>Quick Quotes</p>
+              <p>Finest Agents</p>
             </div>
             <div className="icon">
               <BiRightArrow />
@@ -130,11 +128,12 @@ const ImageGrid = () => {
           </div>
         </div>
         <div
-          className="image-item item5"
+          className="image-item"
           style={{
-            flex: "0 0 calc(15% - 15px)",
+            flex: "0 0 calc(50% - 10px)",
             borderRadius: "15px",
             position: "relative",
+            marginBottom: "20px",
           }}
         >
           <img
@@ -148,11 +147,10 @@ const ImageGrid = () => {
             }}
           />
           <div className="overlay">
-            {" "}
             <div className="overlay-text">
-              <h2>B2B </h2>
+              <h2>DOCTORS</h2>
               <br />
-              <p>Quick Quotes</p>
+              <p>Book Now</p>
             </div>
             <div className="icon">
               <BiRightArrow />
