@@ -31,7 +31,7 @@ const ImageGrid = () => {
               borderRadius: "15px",
             }}
           />
-          <div className="overlay">
+          <div className="overlay .overlay-first">
             <h1>Packers & Movers </h1>
             <button>Get The Best Deal</button>
           </div>
@@ -55,7 +55,13 @@ const ImageGrid = () => {
               borderRadius: "15px",
             }}
           />
-          <div className="overlay">Text for Image 2</div>
+          <div className="overlay">
+            <div className="overlay-text">
+              <h2>B2B </h2>
+              <br />
+              <p>Quick Quotes</p>
+            </div>
+          </div>
         </div>
         <div
           className="image-item item3"
