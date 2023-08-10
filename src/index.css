@@ -25,3 +25,46 @@ code {
 .input-group .input-group-text {
   cursor: pointer;
 }
+
+
+
+.overlay {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+  transition: opacity 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+
+.overlay h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.overlay button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.overlay button:hover {
+  background-color: #ff4f4f;
+}
