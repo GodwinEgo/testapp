@@ -18,37 +18,10 @@ code {
     monospace;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 5%;
-  height: 10vh;
-  align-items: center;
+.input-group .form-control:focus {
+  box-shadow: none;
 }
 
-.navbar Button {
-  height: 4vh;
-  display: flex;
-  background-color: transparent;
-  color: black;
-  border-radius: .4rem;
+.input-group .input-group-text {
   cursor: pointer;
-  align-items: center;
-  transition: all ease-in-out 500ms;
-}
-
-.navbar Button:hover {
-  background-color: black;
-  color: #fafafa;
-}
-
-.text-primary {
-  color: #007bff;
-}
-
-@media (max-width: 767px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 }
