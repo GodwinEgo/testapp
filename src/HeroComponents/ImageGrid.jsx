@@ -4,6 +4,7 @@ import b2b from "../assets/b2b.jpg";
 import repair from "../assets/repair.jpg";
 import house from "../assets/house.jpg";
 import doctor from "../assets/doctor.jpg";
+import { BiRightArrow } from "react-icons/bi";
 
 const ImageGrid = () => {
   return (
@@ -61,6 +62,9 @@ const ImageGrid = () => {
               <br />
               <p>Quick Quotes</p>
             </div>
+            <div className="icon">
+              <BiRightArrow />
+            </div>
           </div>
         </div>
         <div
@@ -82,7 +86,17 @@ const ImageGrid = () => {
               borderRadius: "15px",
             }}
           />
-          <div className="overlay">Text for Image 3</div>
+          <div className="overlay">
+            {" "}
+            <div className="overlay-text">
+              <h2>Repair & Services </h2>
+              <br />
+              <p>Get nearest vendor</p>
+            </div>
+            <div className="icon">
+              <BiRightArrow />
+            </div>
+          </div>
         </div>
         <div
           className="image-item item4"
@@ -103,7 +117,17 @@ const ImageGrid = () => {
               borderRadius: "15px",
             }}
           />
-          <div className="overlay">Text for Image 4</div>
+          <div className="overlay">
+            {" "}
+            <div className="overlay-text">
+              <h2>B2B </h2>
+              <br />
+              <p>Quick Quotes</p>
+            </div>
+            <div className="icon">
+              <BiRightArrow />
+            </div>
+          </div>
         </div>
         <div
           className="image-item item5"
@@ -123,7 +147,17 @@ const ImageGrid = () => {
               borderRadius: "15px",
             }}
           />
-          <div className="overlay">Text for Image 5</div>
+          <div className="overlay">
+            {" "}
+            <div className="overlay-text">
+              <h2>B2B </h2>
+              <br />
+              <p>Quick Quotes</p>
+            </div>
+            <div className="icon">
+              <BiRightArrow />
+            </div>
+          </div>
         </div>
       </div>
     </div>
