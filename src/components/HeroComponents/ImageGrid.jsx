@@ -1,9 +1,9 @@
 import React from "react";
-import mover from "../assets/packer.jpg";
-import b2b from "../assets/b2b.jpg";
-import repair from "../assets/repair.jpg";
-import house from "../assets/house.jpg";
-import doctor from "../assets/doctor.jpg";
+import mover from "../../assets/packer.jpg";
+import b2b from "../../assets/b2b.jpg";
+import repair from "../../assets/repair.jpg";
+import house from "../../assets/house.jpg";
+import doctor from "../../assets/doctor.jpg";
 import { BiRightArrow } from "react-icons/bi";
 
 const ImageGrid = () => {
